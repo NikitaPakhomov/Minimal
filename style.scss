@@ -1,0 +1,52 @@
+$text-color: #6c6c6c;
+$company-color: #5094f2;
+$header-color: #6f7173;
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    max-width: 1270px;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    max-width: 1028px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo {
+    align-self: flex-end;
+}
+
+.nav {
+    align-self: flex-end;
+    padding: 10px;
+}
+.nav__ul {
+    display: flex;
+    list-style: none;
+
+    li:first-child {
+        margin-left: 0;
+    }
+    li:hover {
+        a {
+            padding-bottom: 10px;
+            border-bottom: 2px solid $company-color;
+        }
+    }
+
+    .li__addres {
+        margin-left: 31px;
+        text-decoration: none;
+        color: $text-color;
+    }
+}
+
+.back {
+    max-width: 1270px;
+    height: 529px;
+    background: url("back.png");
+}
