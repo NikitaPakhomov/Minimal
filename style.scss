@@ -17,7 +17,12 @@ body {
     margin: 0 auto;
 }
 .logo {
-    align-self: flex-end;
+    align-self: flex-start;
+    &__image {
+        height: 50px;
+        width: 187px;
+        background: url("../img/logo.svg") top -9px left 0px;
+    }
 }
 
 .nav {

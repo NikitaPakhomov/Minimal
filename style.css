@@ -21,8 +21,14 @@ body {
 }
 
 .logo {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.logo__image {
+  height: 50px;
+  width: 187px;
+  background: url("../img/logo.svg") top -9px left 0px;
 }
 
 .nav {
