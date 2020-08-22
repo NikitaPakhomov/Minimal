@@ -21,7 +21,7 @@ body {
     &__image {
         height: 50px;
         width: 187px;
-        background: url("icons/logo.svg") top -9px left 0px;
+        background: url("/icons/logo.svg") top -9px left 0px;
     }
 }
 
@@ -53,5 +53,5 @@ body {
 .back {
     max-width: 1270px;
     height: 529px;
-    background: url("img/back.png");
+    background: url("/img/back.png");
 }
