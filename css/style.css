@@ -64,4 +64,40 @@ body {
   height: 529px;
   background: url("../img/back.png");
 }
+
+.slider {
+  max-width: 1068px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider .image {
+  max-width: 345px;
+  max-height: 436px;
+}
+
+.slider-item-image {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.slider-item-text {
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.slider-item-text h2 {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */

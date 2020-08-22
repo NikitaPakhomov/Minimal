@@ -55,3 +55,25 @@ body {
     height: 529px;
     background: url("../img/back.png");
 }
+
+.slider {
+    max-width: 1068px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    .image {
+        max-width: 345px;
+        max-height: 436px;
+    }
+    &-item-image {
+        align-self: center;
+    }
+    &-item-text {
+        color: white;
+        align-self: center;
+        h2 {
+            color: white;
+        }
+    }
+}
